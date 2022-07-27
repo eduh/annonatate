@@ -1,0 +1,33 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "wwwwwwwwwwww",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eduh",
+                "name": "eduh"
+            },
+            "created": "2022-07-27T09:45:14.313Z",
+            "modified": "2022-07-27T09:45:14.901Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"286.7633056640625,257.3807373046875 407.1897277832031,318.76312255859375 432.9696197316155,268.185417943119 312.5431976124749,206.80303268921273\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "50b37681-9741-43b2-8d21-2ee9a70a285c.json",
+    "motivation": "commenting"
+}
