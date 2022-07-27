@@ -1,0 +1,35 @@
+---
+canvas: "https://objects.library.uu.nl.nl/iiif_manifest/item:1874-284427-1/canvas/default"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "frontpage",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eduh",
+                "name": "eduh"
+            },
+            "created": "2022-07-27T09:50:03.634Z",
+            "modified": "2022-07-27T09:50:05.835Z"
+        }
+    ],
+    "target": {
+        "source": "https://objects.library.uu.nl.nl/iiif_manifest/item:1874-284427-1/canvas/default",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=984.1658325195312,1997.282470703125,2685.8668823242188,2319.291748046875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://eduh.github.io/annonatate/manifests/iiif.apps-dev.k8s.library.uu.nl/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "7d0de4b3-6165-4af7-8314-206c7c0ae6e9.json",
+    "motivation": "commenting"
+}
