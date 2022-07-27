@@ -1,0 +1,9 @@
+---
+canvas_id: "https://objects.library.uu.nl.nl/iiif_manifest/item:1874-284427-1/canvas/default"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
